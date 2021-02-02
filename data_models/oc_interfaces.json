@@ -1,0 +1,24 @@
+{
+"Cisco-IOS-XR-ifmgr-cfg:interface-configurations": {
+"interface-configuration": [
+{
+"mtus": {
+"mtu": [
+{
+"owner": "SOMETHING",
+"mtu": "SOMETHING"
+}
+]
+},
+"encapsulation": {
+"encapsulation": "SOMETHING",
+"capsulation-options": "SOMETHING"
+},
+"shutdown": null,
+"virtual-interface": null,
+"active": "SOMETHING",
+"interface-name": "SOMETHING"
+}
+]
+}
+}

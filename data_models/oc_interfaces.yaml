@@ -1,0 +1,28 @@
+---
+openconfig-interfaces:
+interfaces:
+interface:
+- name: {{ data }}
+config:
+name: {{ data }}
+type: {{ data }}
+mtu: {{ data }}
+loopback-mode: {{ data }}
+description: {{ data }}
+enabled: {{ data }}
+subinterfaces:
+subinterface:
+- index: {{ data }}
+config:
+index: {{ data }}
+description: {{ data }}
+enabled: {{ data }}
+openconfig-if-ip:
+ipv4:
+addresses:
+address:
+- ip: {{ data }}
+config:
+ip: {{ data }}
+prefix-length: {{ data }}
+...
