@@ -1,33 +1,33 @@
 <interfaces xmlns="http://openconfig.net/yang/interfaces">
-<interface>
-<name>{{ data }}</name>
-<config>
-<name>{{ data }}</name>
-<type>{{ data }}</type>
-<mtu>{{ data }}</mtu>
-<loopback-mode>{{ data }}</loopback-mode>
-<enabled>{{ data }}</enabled>
-</config>
-<subinterfaces>
-<subinterface>
-<index>{{ data }}</index>
-<config>
-<index>{{ data }}</data>
-<description>{{ data }}</description>
-<enabled>{{ data }}</enabled>
-</config>
-<oc-ip:ipv4 xmlns:oc-ip="http://openconfig.net/yang/interfaces/ip">
-<oc-ip:addresses>
-<oc-ip:address>
-<oc-ip:ip>{{ data }}</oc-ip:ip>
-<oc-ip:config>
-<oc-ip:ip>{{ data }}</oc-ip:ip>
-<oc-ip:prefix-length>{{ data }}</oc-ip:prefix-length>
-</oc-ip:config>
-</oc-ip:address>
-</oc-ip:addresses>
-</oc-ip:ipv4>
-</subinterface>
-</subinterfaces>
-</interface>
+ <interface>
+  <name>{{ data }}</name>
+  <config>
+   <name>{{ data }}</name>
+   <type>{{ data }}</type>
+   <mtu>{{ data }}</mtu>
+   <loopback-mode>{{ data }}</loopback-mode>
+   <enabled>{{ data }}</enabled>
+  </config>
+  <subinterfaces>
+   <subinterface>
+    <index>{{ data }}</index>
+    <config>
+      <index>{{ data }}</data>
+      <description>{{ data }}</description>
+      <enabled>{{ data }}</enabled>
+    </config>
+    <oc-ip:ipv4 xmlns:oc-ip="http://openconfig.net/yang/interfaces/ip">
+     <oc-ip:addresses>
+      <oc-ip:address>
+       <oc-ip:ip>{{ data }}</oc-ip:ip>
+       <oc-ip:config>
+        <oc-ip:ip>{{ data }}</oc-ip:ip>
+        <oc-ip:prefix-length>{{ data }}</oc-ip:prefix-length>
+       </oc-ip:config>
+      </oc-ip:address>
+     </oc-ip:addresses>
+    </oc-ip:ipv4>
+   </subinterface>
+  </subinterfaces>
+ </interface>
 </interfaces>
